@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dotnetreactor</id>
@@ -12,8 +12,8 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.eziriz.com/help/index.html</docsUrl>
     <tags>.net reactor confuser</tags>
-    <summary>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</summary>
-    <description></description>
+    <summary></summary>
+    <description>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</description>
     <releaseNotes>https://www.eziriz.com/reactor_history.htm</releaseNotes>
   </metadata>
   <files>
