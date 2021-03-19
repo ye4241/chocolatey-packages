@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dotnetreactor</id>
+    <version>6.5.0.0</version>
+    <owners>ye4241</owners>
+    <title>.NET Reactor (Install)</title>
+    <authors>Eziriz</authors>
+    <iconUrl>https://www.eziriz.com/images/reactordllogo.jpg</iconUrl>
+    <copyright>Copyright © 2003 - 2021 Eziriz.</copyright>
+    <licenseUrl>https://www.eziriz.com/help/license_agreement.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.eziriz.com/help/index.html</docsUrl>
+    <tags>dotnetreactor SPACE_SEPARATED</tags>
+    <summary>__REPLACE__</summary>
+    <description>NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</description>
+    <releaseNotes>https://www.eziriz.com/reactor_history.htm</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
