@@ -1,4 +1,5 @@
 [![](https://ci.appveyor.com/api/projects/status/github/ye4241/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
+[Update status](https://gist.github.com/ye4241/efab467283c72d4d480ebab4829cc1f8)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [chocolatey/ye4241](https://chocolatey.org/profiles/ye4241)
 
