@@ -7,7 +7,7 @@
     <title>.NET Reactor (Install)</title>
     <authors>Eziriz</authors>
     <projectUrl>https://www.eziriz.com/dotnet_reactor.htm</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/ye4241/chocolatey-packages/master/dotnetreactor/app.png</iconUrl>
+    <iconUrl>https://www.eziriz.com/images/reactordllogo.jpg</iconUrl>
     <copyright>Copyright © 2003 - 2021 Eziriz.</copyright>
     <licenseUrl>https://www.eziriz.com/help/license_agreement.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
