@@ -3,6 +3,7 @@
   <metadata>
     <id>dotnetreactor</id>
     <version>6.5.0.0</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
     <title>.NET Reactor (Install)</title>
     <authors>Eziriz</authors>
@@ -12,7 +13,6 @@
     <licenseUrl>https://www.eziriz.com/help/license_agreement.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <docsUrl>https://www.eziriz.com/help/index.html</docsUrl>
-    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <tags>.net reactor confuser</tags>
     <summary>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</summary>
     <description>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies. Its' main features are :  

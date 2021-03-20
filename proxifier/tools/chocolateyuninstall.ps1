@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  softwareName   = '.NET Reactor'
+  softwareName   = 'Proxifier'
   fileType       = 'exe'
-  silentArgs     = "/s MODIFY=FALSE REMOVE=TRUE UNINSTALL=YES"
+  silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
   validExitCodes = @(0)
 }
 $uninstalled = $false
