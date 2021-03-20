@@ -10,9 +10,6 @@ function global:au_SearchReplace {
       "(?i)(^\s*checksum\s*=\s*)('.*')"     = "`$1'$($Latest.Checksum32)'"
       "(?i)(^\s*checksumType\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType32)'"
     }
-    # ".\dotnetreactor.nuspec"        = @{
-    #   "\<releaseNotes\>.+" = "<releaseNotes>$($Latest.ReleaseNotes)</releaseNotes>"
-    # }
   }
 }
 
@@ -24,7 +21,6 @@ function global:au_GetLatest {
   @{
     URL32   = "$releases/$url"
     Version = $version
-    # ReleaseNotes = $releaseNotesUrl
   }
 }
 
