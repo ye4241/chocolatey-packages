@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  softwareName   = 'Proxifier'
+  softwareName   = 'Proxifier*'
   fileType       = 'exe'
   silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-"
   validExitCodes = @(0)

@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  softwareName   = '.NET Reactor'
+  softwareName   = '.NET Reactor*'
   fileType       = 'exe'
   silentArgs     = "/s MODIFY=FALSE REMOVE=TRUE UNINSTALL=YES"
   validExitCodes = @(0)
