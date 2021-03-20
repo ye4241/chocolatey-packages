@@ -3,14 +3,14 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   softwareName   = '.NET Reactor*'
   fileType       = 'exe'
-  silentArgs     = "/s MODIFY=FALSE REMOVE=TRUE UNINSTALL=YES"
+  silentArgs     = '/s MODIFY=FALSE REMOVE=TRUE UNINSTALL=YES'
   validExitCodes = @(0)
 }
 $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
 if ($key.Count -eq 1) {
   $key | ForEach-Object { 
-    $packageArgs['file'] = "$($_.UninstallString)"
+    $packageArgs['file'] = "$($_.ModifyPath)"
     
     if ($packageArgs['fileType'] -eq 'MSI') {
       $packageArgs['silentArgs'] = "$($_.PSChildName) $($packageArgs['silentArgs'])"
