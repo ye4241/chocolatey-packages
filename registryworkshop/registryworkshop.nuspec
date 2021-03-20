@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>registryworkshop</id>
+    <version>5.0.1</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>Registry Workshop (Install)</title>
+    <authors>torchsoft</authors>
+    <projectUrl>http://www.torchsoft.com/en/rw_information.html</projectUrl>
+    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/registryworkshop/app.png</iconUrl>
+    <copyright>Copyright torchsoft</copyright>
+    <docsUrl>http://www.torchsoft.com/node/13</docsUrl>
+    <mailingListUrl>http://www.torchsoft.com/node/1</mailingListUrl>
+    <tags>registry workshop</tags>
+    <summary>Registry Workshop is an advanced registry editor. It is a perfect replacement for RegEdit and RegEdt32 which shipped with Windows.</summary>
+    <description>Registry Workshop is an advanced registry editor. It is a perfect replacement for RegEdit and RegEdt32 which shipped with Windows.
+In addition to all the standard features, Registry Workshop adds a variety of powerful features that allow you to work faster and more efficiently with registry related tasks.
+With Registry Workshop, registry editing becomes safer than ever before. All changes except changing key permissions can be safely reversed (even registry replacing and importing), using multiple levels of Undo. You don't need to worry about making mistakes when editing registry.
+Whether you are an advanced user who needs to edit and modify your registry to remove trojan, virus, and spyware entries, a system administrator who needs a safer, more efficient tool to maintain your company's PCs or a software developer who needs to quickly manipulate registry keys and values during system development, Registry Workshop has the tools that you need.
+### Key Features
+*   **Multiple undo and redo**. The undo history can be saved to disk and reloaded at startup. [_screenshot_](/images/rw_screenshot2.jpg)
+*   **Search and replace** registry keys, values and data with the **super fast search algorithm**. On a typical PC, you can search the entire registry in about ten seconds! [_screenshot_](/images/rw_screenshot1.jpg)
+*   **Compare registry** between computers and/or .REG files with super fast speed.
+*   **Connect mobile device** (Pocket PC, SmartPhone, etc.) registry via ActiveSync.
+*   **Cut, copy and paste** registry keys and values.
+*   Drag and drop to move or copy registry keys and values.
+*   Edit .REG files and .POL files in the same way as editing system registry. [_screenshot_](/images/rw_screenshot4.jpg)
+*   **Backup and restore** the registry. [_screenshot_](/images/rw_screenshot3.jpg)
+*   **Defragment** registry with preview. [_screenshot_](/images/rw_screenshot5.jpg)
+*   Easy and flexible Favorites management.
+*   Quickly browse registry with the **address bar, bookmarks and visitation history**.
+*   Support for **linkage aware ability**. You can use the context menu to navigate to referenced key, open containing folder or open URL if the key or value contains a ProgID, ClassID, folder, file path or URL.
+*   Jump to the same key in HKLM or HKCU by context menu.
+*   Allow opening **multiple local registry windows**.
+*   Allow opening secure registry keys when running under the administrator privilege.
+*   Edit binary data in BYTE, WORD or DWORD format.### System Requirements
+*   Windows XP
+*   Windows Vista
+*   Windows 7
+*   Windows 8
+*   Windows 10</description>
+    <releaseNotes>http://www.torchsoft.com/node/12</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
