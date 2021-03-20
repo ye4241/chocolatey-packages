@@ -14,7 +14,39 @@
     <docsUrl>https://www.eziriz.com/help/index.html</docsUrl>
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <tags>.net reactor confuser</tags>
-    <description>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</description>
+    <summary>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies.</summary>
+    <description>.NET Reactor is a powerful code protection and software licensing system for software written for the .NET Framework, and supports all languages that generate .NET assemblies. Its' main features are :  
+  
+-   Intellectual property protection
+    -   NecroBit Protection
+    -   Native Code generation
+    -   Code Virtualization
+    -   Obfuscation
+    -   Control Flow Obfuscation
+    -   Hide Method Calls (dynamic proxy)
+    -   String Encryption
+    -   Anti Tampering
+    -   Anti Debugging
+    -   Resource Encryption and Compression
+    -   Dependency Merging
+    -   Protects full applications and libraries (dlls)
+-   Powerful licensing system
+    -   Create trial versions of your software
+        -   Set an expiration date
+        -   Limit use to a fixed number of days after installation
+        -   Limit by number of uses
+        -   Limit to use for no more than a set number of minutes each invocation
+        -   Limit trial version functionality
+    -   Easily turn your trial version into a fully licensed version
+    -   License your software
+        -   Permanently (non expiring license)
+        -   By time period (i.e rent your software)
+        -   By number of uses (i.e software as a service)
+-   Software development kit
+    -   Integrate license checking into you assembly and extend licensing fuctionality
+    -   Extend licensing functions with bespoke extensions.
+-   Deployment
+    -   Create .NET Core single file application bundles</description>
     <releaseNotes>https://www.eziriz.com/reactor_history.htm</releaseNotes>
   </metadata>
   <files>
