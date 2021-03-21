@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>libusbdotnet</id>
+    <version>2.2.8</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>LibUsbDotNet C# USB Library (Install)</title>
+    <authors>Frederik Carlier, Travis Robinson</authors>
+    <projectUrl>https://sourceforge.net/projects/libusbdotnet/</projectUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/libusbdotnet/icon</iconUrl>
+    <licenseUrl>https://sourceforge.net/projects/libusbdotnet/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://sourceforge.net/projects/libusbdotnet/</projectSourceUrl>
+    <docsUrl>http://libusbdotnet.sourceforge.net/V2/Index.html</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/libusbdotnet/wiki/Home/</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/libusbdotnet/libusbdotnet-bugs/</bugTrackerUrl>
+    <tags>libusbdotnet c# usb library</tags>
+    <summary>.NET C# USB library for WinUSB, LibUsb-Win32, and libusb-1.0. Using the common device classes, applications work with all operating systems and drivers without modification. Lots of example code. Open source software at sourceforge.net.</summary>
+    <description>Features
+- Compatible with Windows: LibUsb-Win32, WinUSB, libusb-1.0 windows backend
+- Compatible with Linux: libusb-1.0
+- Built-in Device Notifier (Arrival and Removal notification)
+    </description>
+    <releaseNotes>https://sourceforge.net/p/libusbdotnet/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
