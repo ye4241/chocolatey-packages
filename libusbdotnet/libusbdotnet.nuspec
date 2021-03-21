@@ -8,7 +8,7 @@
     <title>LibUsbDotNet C# USB Library (Install)</title>
     <authors>Frederik Carlier, Travis Robinson</authors>
     <projectUrl>https://sourceforge.net/projects/libusbdotnet/</projectUrl>
-    <iconUrl>https://a.fsdn.com/allura/p/libusbdotnet/icon</iconUrl>
+    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/libusbdotnet/app.png</iconUrl>
     <licenseUrl>https://sourceforge.net/projects/libusbdotnet/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://sourceforge.net/projects/libusbdotnet/</projectSourceUrl>
