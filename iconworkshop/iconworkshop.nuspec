@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>iconworkshop</id>
+    <version>6.91</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>IconWorkshop (Install)</title>
+    <authors>Axialis</authors>
+    <projectUrl>https://www.axialis.com/iconworkshop/</projectUrl>
+    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/iconworkshop/app.svg</iconUrl>
+    <copyright>Copyright © 2020 Axialis SA - All rights reserved.</copyright>
+    <licenseUrl>https://www.axialis.com/products/license.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.axialis.com/products/faq.html</docsUrl>
+    <mailingListUrl>https://www.axialis.com/customer/contact.php</mailingListUrl>
+    <tags>iconworkshop icon authoring</tags>
+    <summary>Axialis IconWorkshop is a professional icon authoring tool which runs under Windows and lets you easily create hi-quality icons for all available platforms &amp; devices.</summary>
+    <description># One Tool for All your Icon Authoring Needs
+As a developer you&apos;ll be able to easily create professional icons for your applications on **all major operating systems**, including:
+*   **Windows Icons** - ICO file format for all version up to 768x768 for Windows 10
+*   **MacOS Icons** - ICNS, RSC, BIN file formats for all version up to 1024x1024 for OSX 10.11 El Capitan
+*   **Unix/Linux** - PNG file format with alpha channel for all versions
+*   **Android OS** - PNG file format with alpha channel for all UI elements (different sizes)
+*   **iPhone OS** - PNG file format with alpha channel for all UI elements (different sizes)
+*   **Windows Phone** - PNG, BMP file formats with alpha channel for all UI elements (different sizes)
+    </description>
+    <releaseNotes>https://www.axialis.com/iconworkshop/</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.install" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
