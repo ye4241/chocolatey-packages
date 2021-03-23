@@ -17,10 +17,10 @@ function global:au_GetLatest {
   $response = Invoke-WebRequest -UseBasicParsing -Uri $releases
   $content = $response.Content
   $items = ($content | Select-String '<td align="center" valign="middle">(.*?)</td>' -AllMatches).Matches
-  $url = ($items[0].Groups[1].Value | Select-String 'href="(.*?)"' -AllMatches).Matches[0].Groups[1].Value
+  $url = $domain + ($items[0].Groups[1].Value | Select-String 'href="(.*?)"' -AllMatches).Matches[0].Groups[1].Value
   $version = $items[3].Groups[1].Value
   @{
-    URL32   = "$domain$url"
+    URL32   = $url
     Version = $version
   }
 }

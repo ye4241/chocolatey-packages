@@ -17,10 +17,10 @@ function global:au_GetLatest {
   $downloadPage = Invoke-WebRequest -UseBasicParsing -Uri $releases
   $content = $downloadPage.Content
   $match = ($content | Select-String 'download.php\?download=dotnet_reactor_setup_(\d_\d_\d_\d).exe' -AllMatches).Matches[0]
-  $url = $match.Groups[0].Value
+  $url = $domain + "/" + $match.Groups[0].Value
   $version = $match.Groups[1].Value -replace "_", "."
   @{
-    URL32 = "$domain/$url"
+    URL32   = $url
     Version = $version
   }
 }
