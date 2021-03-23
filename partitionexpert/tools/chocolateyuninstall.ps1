@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  softwareName   = 'Macrorit Partition Expert Free**' 
+  softwareName   = 'Macrorit Partition Expert Free*' 
   fileType       = 'exe'
   silentArgs     = '/S' 
   validExitCodes = @(0)
