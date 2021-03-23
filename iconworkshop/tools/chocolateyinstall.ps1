@@ -1,7 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
-  unzipLocation  = $toolsDir
   fileType       = 'exe'
   url            = 'https://www.axialis.com/downloads/IconWorkshop-Pro.exe'
   softwareName   = 'Axialis IconWorkshop*' 
