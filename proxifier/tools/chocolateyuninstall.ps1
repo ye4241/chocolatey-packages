@@ -11,14 +11,6 @@ $uninstalled = $false
 if ($key.Count -eq 1) {
   $key | ForEach-Object { 
     $packageArgs['file'] = "$($_.UninstallString)"
-    
-    if ($packageArgs['fileType'] -eq 'MSI') {
-      $packageArgs['silentArgs'] = "$($_.PSChildName) $($packageArgs['silentArgs'])"
-      
-      $packageArgs['file'] = ''
-    }
-    else {
-    }
     Uninstall-ChocolateyPackage @packageArgs
   }
 }
