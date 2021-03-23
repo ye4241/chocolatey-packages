@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ogdesigneagle</id>
+    <version>2.0.0</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>Eagle (Install)</title>
+    <authors>ogdesign</authors>
+    <projectUrl>https://eagle.cool/</projectUrl>
+    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/ogdesigneagle/app.png</iconUrl>
+    <copyright>© 2017-2021 ogdesign.inc All rights reserved</copyright>
+    <licenseUrl>https://en.eagle.cool/eula</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://docs-en.eagle.cool/</docsUrl>
+    <tags>ogdesign eagle images organize</tags>
+    <summary>Organize all your reference images in one place</summary>
+    <description>Eagle helps you become a happier, better designer. A new way to collect, search and organize your image files in a logical way and all in one place.
+## Why Eagle?
+**Your solution to organizing design assets**
+Eagle is your best choice for organizing images and ideas. Thousands of images? Hundreds of categories? Eagle solves it all with efficiency and style.
+
+**It can be a fuss to collect images from websites**
+Collecting images are always a nightmare, especially with all the procedures and when there are more than one.
+
+**Lack of efficiency to organizing assets**
+Organizing assets means creating many folders and multiple cut-and-paste actions, which can be quite a waste of time.
+
+**Finding assets become mission impossible**
+It is not easy to remember where you keep all your design assets, and it is harder to find the right one at the right time.</description>
+    <releaseNotes>https://eagle.cool/changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
