@@ -10,7 +10,8 @@ $uninstalled = $false
 [array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
 if ($key.Count -eq 1) {
   $key | ForEach-Object { 
-    $packageArgs['file'] = "$($_.ModifyPath)"
+    $uninstallString = $_.UninstallString.Split('"')[1]
+    $packageArgs['file'] = "$($uninstallString)"
     Uninstall-ChocolateyPackage @packageArgs
   }
 }
