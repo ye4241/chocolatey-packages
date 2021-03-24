@@ -8,7 +8,7 @@
     <title>Eagle (Install)</title>
     <authors>ogdesign</authors>
     <projectUrl>https://eagle.cool/</projectUrl>
-    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/ogdesigneagle/app.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/ogdesigneagle/app.png</iconUrl>
     <copyright>© 2017-2021 ogdesign.inc All rights reserved</copyright>
     <licenseUrl>https://en.eagle.cool/eula</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

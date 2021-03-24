@@ -8,7 +8,7 @@
     <title>IconWorkshop (Install)</title>
     <authors>Axialis</authors>
     <projectUrl>https://www.axialis.com/iconworkshop/</projectUrl>
-    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/iconworkshop/app.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/iconworkshop/app.svg</iconUrl>
     <copyright>Copyright © 2020 Axialis SA - All rights reserved.</copyright>
     <licenseUrl>https://www.axialis.com/products/license.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -27,7 +27,7 @@ As a developer you&apos;ll be able to easily create professional icons for your 
     </description>
     <releaseNotes>https://www.axialis.com/iconworkshop/</releaseNotes>
     <dependencies>
-      <dependency id="autohotkey.install" version="1.1.30.06"/>
+      <dependency id="autohotkey.install" version="1.1.30.03" />
     </dependencies>
   </metadata>
   <files>

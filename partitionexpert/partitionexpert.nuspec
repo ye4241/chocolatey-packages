@@ -8,7 +8,7 @@
     <title>Macrorit Partition Expert Free Edition (Install)</title>
     <authors>Macrorit</authors>
     <projectUrl>https://macrorit.com/partition-magic-manager/free-edition.html</projectUrl>
-    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/partitionexpert/app.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/partitionexpert/app.png</iconUrl>
     <copyright>Copyright © 2013-2021 Macrorit® from Bada Technology Co., Ltd</copyright>
     <licenseUrl>https://macrorit.com/partition-magic-manager/partition-expert-license.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

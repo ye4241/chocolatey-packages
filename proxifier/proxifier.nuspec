@@ -8,7 +8,7 @@
     <title>Proxifier (Install)</title>
     <authors>Initex</authors>
     <projectUrl>https://www.proxifier.com/</projectUrl>
-    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/proxifier/app.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/proxifier/app.png</iconUrl>
     <copyright>© 2002–2020 Initex. All rights reserved. Initex is in no way affiliated with UpsideOut; "Proxify" and "Proxifier" are trademarks of UpsideOut, Inc.</copyright>
     <licenseUrl>https://www.proxifier.com/docs/win-v4/eula.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>

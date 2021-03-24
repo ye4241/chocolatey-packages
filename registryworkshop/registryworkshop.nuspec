@@ -8,7 +8,7 @@
     <title>Registry Workshop (Install)</title>
     <authors>torchsoft</authors>
     <projectUrl>http://www.torchsoft.com/en/rw_information.html</projectUrl>
-    <iconUrl>https://raw.githack.com/ye4241/chocolatey-packages/master/registryworkshop/app.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/registryworkshop/app.png</iconUrl>
     <copyright>Copyright torchsoft</copyright>
     <docsUrl>http://www.torchsoft.com/node/13</docsUrl>
     <mailingListUrl>http://www.torchsoft.com/node/1</mailingListUrl>
