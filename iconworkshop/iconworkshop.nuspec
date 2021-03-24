@@ -27,7 +27,7 @@ As a developer you&apos;ll be able to easily create professional icons for your 
     </description>
     <releaseNotes>https://www.axialis.com/iconworkshop/</releaseNotes>
     <dependencies>
-      <dependency id="autohotkey.install" />
+      <dependency id="autohotkey.install" version="1.1.30.06"/>
     </dependencies>
   </metadata>
   <files>
