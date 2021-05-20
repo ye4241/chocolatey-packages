@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = $env:ChocolateyPackageName
 
-$toolsDir = $Temp
+$toolsDir = $env:TEMP
 $zipFilePath = "$toolsDir\mde-free-setup.zip"
 
 $packageArgs = @{
