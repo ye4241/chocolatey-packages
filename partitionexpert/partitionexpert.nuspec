@@ -5,7 +5,7 @@
     <version>5.6.0</version>
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
-    <title>Macrorit Partition Expert Free Edition (Install)</title>
+    <title>Macrorit Partition Expert Free Edition (Portable)</title>
     <authors>Macrorit</authors>
     <projectUrl>https://macrorit.com/partition-magic-manager/free-edition.html</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/partitionexpert/app.png</iconUrl>

@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
   $response = Invoke-RestMethod -Method Get -Uri $price
-  $url = $response.free.downloads[0].link
+  $url = $response.free.downloads[1].link
   $response = Invoke-RestMethod -Method Get -Uri $releases
   $version = ($response | Select-String '"mde":[\s\S]*?"ver": "(.*?)"' -AllMatches).Matches[0].Groups[1].Value
   @{

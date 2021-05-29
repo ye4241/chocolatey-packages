@@ -1,32 +1,27 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName = $env:ChocolateyPackageName
 
-$toolsDir = $env:TEMP
-$zipFilePath = "$toolsDir\mde-free-setup.zip"
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
   packageName   = $packageName
-  fileFullPath  = $zipFilePath
-  url           = 'https://disk-tool.com/download/mde/mde-free-setup.zip'
-  checksum      = 'a35c3eba15b8e28db6fb850596610c117de705989fd4f5e31b81aaf7d8dfa2f9'
+  url           = 'https://disk-tool.com/download/mde/mde-free-portable.zip'
+  unzipLocation = $toolsDir
+  checksum      = '1688380b8c5e45fc618695507d6de26cb459ed212550559749389bc9d0616b49'
   checksumType  = 'sha256'
-  forceDownload = $true
 }
-Get-ChocolateyWebFile @packageArgs
+Install-ChocolateyZipPackage @packageArgs
 
-$packageArgs = @{
-  packageName  = $packageName
-  fileFullPath = $zipFilePath 
-  destination  = $toolsDir
+$zipFolderPath = "$toolsDir\mde-free-portable"
+if ([Environment]::Is64BitProcess -eq [Environment]::Is64BitOperatingSystem) {
+  $exePath = Join-Path -Path $zipFolderPath -ChildPath "x64\dm.exe"
+} else {
+  $exePath = Join-Path -Path $zipFolderPath -ChildPath "x86\dm.exe"
 }
-Get-ChocolateyUnzip @packageArgs
-
-$packageArgs = @{
-  packageName    = $packageName
-  fileType       = 'exe'
-  file           = "$toolsDir\mde-free-setup.exe"
-  softwareName   = 'Macrorit Partition Expert Free*'
-  silentArgs     = '/S'
-  validExitCodes = @(0)
+if (Test-ProcessAdminRights) {
+    $specialFolder = [Environment+SpecialFolder]::CommonPrograms
+} else {
+    $specialFolder = [Environment+SpecialFolder]::Programs
 }
-Install-ChocolateyPackage @packageArgs
+$linkPath = [Environment]::GetFolderPath($specialFolder) | Join-Path -ChildPath 'Macrorit Partition Expert Free.lnk'
+Install-ChocolateyShortcut -ShortcutFilePath $linkPath -TargetPath $exePath
