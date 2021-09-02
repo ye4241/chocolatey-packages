@@ -7,7 +7,7 @@ $packageArgs = @{
   packageName   = $packageName
   url           = 'https://disk-tool.com/download/mde/mde-free-portable.zip'
   unzipLocation = $toolsDir
-  checksum      = '0b5e58def1a7f31e9291c36a0e3b9d364335ff3edde4314e14ff4b22a080b56d'
+  checksum      = 'b12697ca5b8dcf0b5973f79e2df134eb9b664175e760f4d2d7cb9e818015dbba'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
