@@ -2,9 +2,9 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_7_0_0.exe'
+  url            = 'https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_8_0_0.exe'
   softwareName   = '.NET Reactor'
-  checksum       = '1eb688ed25bdf0ac3ff8ca4dba4dd39e78ab5dc6c719a8a3568703226ee03da8'
+  checksum       = '5bb7aa6aa09e547ffb30bf32c8f5b4f853ae9ce236dcea5d1c8f6bd2c5a81417'
   checksumType   = 'sha256'
   silentArgs     = "/s"
   validExitCodes = @(0)
