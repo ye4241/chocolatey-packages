@@ -16,8 +16,8 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
   $response = Invoke-WebRequest -UseBasicParsing -Uri $releases
   $content = $response.Content
-  $version = ($content | Select-String 'class="download-item__description"><p>Version: <a href=".*">(.*?)</a>' -AllMatches).Matches[0].Groups[1].Value
-  $url = $releases + "/" + ($content | Select-String '<a href="(.*)" class="installer">' -AllMatches).Matches[0].Groups[1].Value
+  $version = ($content | Select-String '<div class="download-item__description"><p>Version <a href=".*">(.*?)</a>' -AllMatches).Matches[0].Groups[1].Value
+  $url = $releases + ($content | Select-String '<a href="(.*)" class="installer">' -AllMatches).Matches[0].Groups[1].Value
   @{
     URL32   = $url
     Version = $version
