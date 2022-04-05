@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: ye4241/chocolatey-packages
   github_api_key:
-    secure: KHfB6RT+s1KtwNGSj4DglkxMhxgGdULpUbePnxfg4eh5bTX2bqkbhHOaNMYLoHgJ
+    secure: abxpIGGbvdrrBiB8K5/w5dtcmXGPKssA5UdWQV2g/Kt/El3qkgl58CrcLFeQVFss
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist

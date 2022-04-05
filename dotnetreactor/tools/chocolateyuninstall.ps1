@@ -3,7 +3,7 @@ $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   softwareName   = '.NET Reactor*'
   fileType       = 'exe'
-  silentArgs     = '/s MODIFY=FALSE REMOVE=TRUE UNINSTALL=YES'
+  silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES'
   validExitCodes = @(0)
 }
 $uninstalled = $false
