@@ -12,6 +12,6 @@ $packageArgs = @{
 }
 Install-ChocolateyZipPackage @packageArgs
 
-$unzipLocation = Join-Path $toolsDir $packageVersion
-Install-ChocolateyEnvironmentVariable -variableName "CROWDIN_HOME" -variableValue "$unzipLocation"
-Install-ChocolateyPath -pathToInstall $unzipLocation -pathType "Machine"
+$unzipDir = Join-Path $toolsDir $packageVersion
+Install-ChocolateyEnvironmentVariable -variableName "CROWDIN_HOME" -variableValue "$unzipDir"
+Install-ChocolateyPath -pathToInstall $unzipDir -pathType "Machine"
