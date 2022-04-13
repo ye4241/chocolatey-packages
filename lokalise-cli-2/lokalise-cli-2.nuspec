@@ -16,7 +16,7 @@
     <docsUrl>https://github.com/lokalise/lokalise-cli-2-go#usage</docsUrl>
     <tags>lokalise cli v2</tags>
     <summary>Lokalise CLI v2 allows you to manipulate any object or data in your Lokalise workspace, which includes files, projects, keys, translations, comments, contributors, teams and more.</summary>
-    <description>__REPLACE__MarkDown_Okay </description>
+    <description>This version of CLI tool has been completely rebuilt from scratch and is not compatible with the v1 CLI command syntax. Instead of being just an upload/download tool this release supports all Lokalise API v2 endpoints. </description>
     <releaseNotes>https://github.com/lokalise/lokalise-cli-2-go/releases</releaseNotes>
   </metadata>
   <files>
