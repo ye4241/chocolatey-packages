@@ -1,0 +1,1 @@
+﻿# TODO: Uninstall-ChocolateyPath -pathToInstall $unzipDir -pathType "Machine"

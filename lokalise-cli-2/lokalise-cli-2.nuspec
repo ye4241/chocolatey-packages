@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lokalise-cli-2</id>
+    <version>2.6.8</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>Lokalise CLI v2</title>
+    <authors>lokalise</authors>
+    <projectUrl>https://github.com/lokalise/lokalise-cli-2-go</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/lokalise-cli-2/app.png</iconUrl>
+    <copyright>©2017-2022 lokalise All rights reserved.</copyright>
+    <licenseUrl>https://github.com/lokalise/lokalise-cli-2-go/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/lokalise/lokalise-cli-2-go</projectSourceUrl>
+    <docsUrl>https://github.com/lokalise/lokalise-cli-2-go#usage</docsUrl>
+    <tags>lokalise cli v2</tags>
+    <summary>Lokalise CLI v2 allows you to manipulate any object or data in your Lokalise workspace, which includes files, projects, keys, translations, comments, contributors, teams and more.</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+    <releaseNotes>https://github.com/lokalise/lokalise-cli-2-go/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
