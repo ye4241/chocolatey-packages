@@ -1,1 +1,1 @@
-﻿# TODO: Uninstall-ChocolateyPath -pathToInstall $unzipDir -pathType "Machine"
+﻿Uninstall-BinFile -name lokalise2

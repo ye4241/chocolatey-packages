@@ -5,7 +5,7 @@
     <version>3.7.8</version>
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
-    <title>Crowdin CLI</title>
+    <title>Crowdin CLI (Portable)</title>
     <authors>Crowdin</authors>
     <projectUrl>https://github.com/crowdin/crowdin-cli</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/crowdin-cli/app.png</iconUrl>

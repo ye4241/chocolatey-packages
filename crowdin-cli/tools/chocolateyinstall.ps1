@@ -14,4 +14,4 @@ Install-ChocolateyZipPackage @packageArgs
 
 $unzipDir = Join-Path $toolsDir $packageVersion
 Install-ChocolateyEnvironmentVariable -variableName "CROWDIN_HOME" -variableValue "$unzipDir"
-Install-ChocolateyPath -pathToInstall $unzipDir -pathType "Machine"
+Add-BinFile -name crowdin -path "$unzipDir\crowdin.bat"

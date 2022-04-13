@@ -13,4 +13,4 @@ $packageArgs = @{
 Install-ChocolateyZipPackage @packageArgs
 
 $unzipDir = $toolsDir
-Install-ChocolateyPath -pathToInstall $unzipDir -pathType "Machine"
+Add-BinFile -name lokalise2 -path "$unzipDir\lokalise2.exe"
