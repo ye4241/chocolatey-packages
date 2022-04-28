@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>resilio-sync</id>
+    <version>2.7.3</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>Resilio Sync (Install)</title>
+    <authors>Resilio, Inc.</authors>
+    <projectUrl>https://www.resilio.com/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/resilio-sync/app.png</iconUrl>
+    <copyright>©2020 Resilio, Inc.</copyright>
+    <licenseUrl>https://help.resilio.com/hc/en-us/categories/200939323</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://help.resilio.com/</docsUrl>
+    <tags>resilio sync connect</tags>
+    <summary>Resilio Sync is a fast, reliable, and simple file sync and share solution, powered by P2P technology</summary>
+    <description>https://www.resilio.com/individuals/</description>
+    <releaseNotes>https://help.resilio.com/hc/en-us/articles/206216855</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
