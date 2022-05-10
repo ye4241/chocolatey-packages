@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>safenet-authentication-client</id>
+    <version>10.8</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>SafeNet Authentication Client (Install)</title>
+    <authors> Thales DIS CPL USA, Inc.</authors>
+    <projectUrl>https://cpl.thalesgroup.com/access-management/security-applications/authentication-client-token-management</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/safenet-authentication-client/app.ico</iconUrl>
+    <copyright>Copyright © 2022 Thales. All Rights Reserved</copyright>
+    <docsUrl>https://www.digicert.com/kb/code-signing/safenet-client-installation.htm</docsUrl>
+    <tags>safenet authentication client eToken</tags>
+    <summary>SafeNet Authentication Client – is a middleware client that manages Thales' extensive SafeNet portfolio of certificate-based authenticators, including eTokens, SafeNet IDPrime smart cards, USB and software-based devices.</summary>
+    <description>Offering full backward compatibility and incorporating features from previous middleware versions, SafeNet Authentication Client ensures complete support for all currently deployed eToken devices, as well as SafeNet IDPrime smart cards.</description>
+    <releaseNotes>https://knowledge.digicert.com/generalinformation/INFO1982.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
