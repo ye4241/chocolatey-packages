@@ -2,9 +2,9 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-2.0-build10.exe'
+  url            = 'https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build1.exe'
   softwareName   = 'Eagle' 
-  checksum       = 'f567deedb2609e90d510cc0e30916bba6255592965b661ae9c0060ab0b338884'
+  checksum       = 'd1cf045b812eaa8bd1131f5c841cb557307a26ffd728a768ccc5ce44fdba8598'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0) 
