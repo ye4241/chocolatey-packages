@@ -1,7 +1,6 @@
 ﻿import-module au
 
-$download = "https://www.resilio.com/platforms/desktop/"
-$release = "https://raw.githubusercontent.com/bt-sync/sync-docker/master/Dockerfile"
+$releases = 'https://knowledge.digicert.com/generalinformation/INFO1982.html'
 
 function global:au_SearchReplace {
   @{
@@ -17,10 +16,9 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-  $responseCotent = (Invoke-WebRequest -UseBasicParsing -Uri $release).Content
-  $version = ($responseCotent | Select-String 'LABEL com.resilio.version="(.*?)"' -AllMatches).Matches[0].Groups[1].Value
-  $url32 = "https://download-cdn.getsync.com/$version/windows/Resilio-Sync.exe"
-  $url64 = "https://download-cdn.getsync.com/$version/windows64/Resilio-Sync_x64.exe"
+  $url32 = 'https://www.digicert.com/StaticFiles/SafeNetAuthenticationClient-x32.msi'
+  $url64 = 'https://www.digicert.com/StaticFiles/SafeNetAuthenticationClient-x64.msi'
+  $version = "10.8"
   @{
     Url32   = $url32
     Url64   = $url64
@@ -28,4 +26,4 @@ function global:au_GetLatest {
   }
 }
 
-Update-Package 
+Update-Package

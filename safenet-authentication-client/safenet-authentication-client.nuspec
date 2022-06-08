@@ -8,7 +8,7 @@
     <title>SafeNet Authentication Client (Install)</title>
     <authors>Thales DIS CPL USA, Inc.</authors>
     <projectUrl>https://cpl.thalesgroup.com/access-management/security-applications/authentication-client-token-management</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/safenet-authentication-client/app.ico</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/safenet-authentication-client/app.png</iconUrl>
     <copyright>Copyright © 2022 Thales. All Rights Reserved</copyright>
     <docsUrl>https://www.digicert.com/kb/code-signing/safenet-client-installation.htm</docsUrl>
     <tags>safenet authentication client eToken</tags>
