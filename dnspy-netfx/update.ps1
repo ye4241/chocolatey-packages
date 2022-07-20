@@ -2,6 +2,7 @@
 
 $domain = 'https://github.com'
 $project = "dnSpy/dnSpy"
+$file = 'dnSpy-netframework.zip'
 
 function global:au_SearchReplace {
   @{
@@ -19,7 +20,7 @@ function global:au_GetLatest {
   $match = ($content | Select-String "href=""/$project/releases/tag/(.*?)""" -AllMatches).Matches[0]
   $tag = $match.Groups[1].Value
   $version = $tag -replace "v", ""
-  $match = ($content | Select-String "href=""(/$project/releases/download/$tag/dnSpy-netframework.zip)""" -AllMatches).Matches[0]
+  $match = ($content | Select-String "href=""(/$project/releases/download/$tag/$file)""" -AllMatches).Matches[0]
   $url = $domain + $match.Groups[1].Value
   @{
     Version = $version
