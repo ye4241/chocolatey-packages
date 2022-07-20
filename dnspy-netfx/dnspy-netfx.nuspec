@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dnspy-netfx</id>
+    <version>6.1.8</version>
+    <owners>ye4241</owners>
+    <title>dnSpy (.NTT Framework Portable)</title>
+    <authors>0xd4d</authors>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <projectUrl>https://github.com/dnSpy/dnSpy</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/dnspy-netfx/app.png</iconUrl>
+    <copyright>0xd4d</copyright>
+    <licenseUrl>https://github.com/dnSpy/dnSpy/tree/master/dnSpy/dnSpy/LicenseInfo</licenseUrl>
+    <projectSourceUrl>https://github.com/dnSpy/dnSpy</projectSourceUrl>
+    <docsUrl>https://github.com/dnSpy/dnSpy</docsUrl>
+    <tags>dnspy assembly cil debugger decompiler dnlib dotnet editor il ilspy msil net .net</tags>
+    <summary>.NET assembly editor, decompiler, and debugger</summary>
+    <description>dnSpy is a tool to reverse engineer .NET assemblies. It includes a decompiler, a debugger and an assembly editor (and more) and can be easily extended by writing your own extension. It uses dnlib to read and write assemblies so it can handle obfuscated assemblies (eg. malware) without crashing. </description>
+    <releaseNotes>https://github.com/dnSpy/dnSpy/releases</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
