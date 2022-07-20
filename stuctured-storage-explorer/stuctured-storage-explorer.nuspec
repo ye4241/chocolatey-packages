@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stuctured-storage-explorer</id>
+    <version>2.2.1.9</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>Stuctured Storage Explorer (Portable)</title>
+    <authors>ironfede</authors>
+    <projectUrl>https://github.com/ironfede/openmcdf</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/stucturedstorageexplorer/app.png</iconUrl>
+    <projectSourceUrl>https://github.com/ironfede/openmcdf</projectSourceUrl>
+    <licenseUrl>https://github.com/ironfede/openmcdf/blob/master/License.txt</licenseUrl>
+    <tags>openmcdf ole stuctured storage explorer</tags>
+    <summary>OpenMCDF is a 100% .net / C# component that allows developers to manipulate Microsoft Compound Document Files (also known as OLE structured storage).</summary>
+    <description>OpenMcdf supports read/write operations on streams and storages and traversal of structures tree. It supports version 3 and 4 of the specifications, uses lazy loading wherever possible to reduce memory usage and offer an intuitive API to work with structured files. </description>
+    <releaseNotes>https://github.com/ironfede/openmcdf/blob/master/Release%20notes.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
