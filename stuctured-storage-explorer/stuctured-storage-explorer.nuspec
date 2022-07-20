@@ -8,7 +8,7 @@
     <title>Stuctured Storage Explorer (Portable)</title>
     <authors>ironfede</authors>
     <projectUrl>https://github.com/ironfede/openmcdf</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/stucturedstorageexplorer/app.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/stuctured-storage-explorer/app.png</iconUrl>
     <projectSourceUrl>https://github.com/ironfede/openmcdf</projectSourceUrl>
     <licenseUrl>https://github.com/ironfede/openmcdf/blob/master/License.txt</licenseUrl>
     <tags>openmcdf ole stuctured storage explorer</tags>
