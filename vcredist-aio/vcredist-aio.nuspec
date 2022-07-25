@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vcredist-aio</id>
+    <version>0.61.0</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>VisualCppRedist AIO (Install)</title>
+    <authors>abbodi1406</authors>
+    <projectUrl>https://github.com/abbodi1406/vcredist</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/vcredist-aio/app.png</iconUrl>
+    <licenseUrl>https://github.com/abbodi1406/vcredist/blob/master/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/abbodi1406/vcredist</projectSourceUrl>
+    <docsUrl>https://github.com/abbodi1406/vcredist/blob/master/README.md</docsUrl>
+    <tags>vcredist aio</tags>
+    <summary>AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.</summary>
+    <description>- AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.
+
+- Built upon VBCRedist_AIO_x86_x64.exe by **@ricktendo64**
+
+- The process is handled by a windows command script, which runs hidden in the background by default.
+
+- Before installation, the script will check and remove existing non-compliant Visual C++ Runtimes, including the original EXE or MSI setups, or older MSI packages versions.
+
+- The uninstallation option/script will remove any detected VC++ runtimes (except UCRT).
+
+- Windows XP support is partial, the pack will install and detect the latest runtimes versions, but it will not check and remove non-compliant versions.
+
+- You can extract the installer file with 7-zip or WinRar to a short path, and run Installer.cmd as administrator </description>
+    <releaseNotes>https://github.com/abbodi1406/vcredist/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
