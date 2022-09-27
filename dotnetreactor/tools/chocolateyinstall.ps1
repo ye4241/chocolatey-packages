@@ -2,9 +2,9 @@
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_8_0_0.exe'
+  url            = 'https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_9_0_0.exe'
   softwareName   = '.NET Reactor'
-  checksum       = '73937d0043818fc63bf7048915899ccbbb2a459ef352b3fbd824a5035ec528a4'
+  checksum       = 'ecaadef3c08296bb6e561fbd157f65a10f776a6c6e8eea75bc30105c2408efcb'
   checksumType   = 'sha256'
   silentArgs     = "/VERYSILENT /SUPPRESSMSGBOXES"
   validExitCodes = @(0)
