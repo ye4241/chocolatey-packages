@@ -16,8 +16,9 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
   $response = Invoke-WebRequest -UseBasicParsing -Uri $releases
   $content = $response.Content
-  $url = ($content | Select-String '<a href="(.*?\.exe)">' -AllMatches).Matches[0].Groups[1].Value
-  $version = ($content | Select-String '<a href="\/iconworkshop">Axialis IconWorkshop (.*?)</a>' -AllMatches).Matches[0].Groups[1].Value
+  $match = ($content | Select-String -Pattern '<p>File: <b><a href="(.*?\.exe)">IconWorkshop-Pro.exe</a></b> - Version: <b>(.*?)</b><br>').Matches[0]
+  $url = $match.Groups[1].Value
+  $version = $match.Groups[2].Value
   @{
     Url32   = $url
     Version = $version
