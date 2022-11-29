@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pingo</id>
+    <version>0.65</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>pingo (Portable)</title>
+    <authors>ye4241</authors>
+    <projectUrl>https://css-ig.net/pingo</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/pingo/app.png</iconUrl>
+    <docsUrl>https://css-ig.net/pingo</docsUrl>
+    <bugTrackerUrl>https://css-ig.net/submit/</bugTrackerUrl>
+    <tags>pingo jpg png webp apng image optimizer</tags>
+    <summary>Image optimizer for web</summary>
+    <description>Pingo is an experimental lossless and lossy image optimizer (PNG, JPEG, WebP, APNG) designed to be used for web context.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
