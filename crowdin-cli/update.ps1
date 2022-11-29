@@ -1,6 +1,5 @@
 ﻿import-module au
 
-$domain = 'https://github.com'
 $project = "crowdin/crowdin-cli"
 $file = "crowdin-cli.zip"
 
@@ -15,13 +14,11 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-  $releasePage = Invoke-WebRequest -UseBasicParsing -Uri "$domain/$project/releases/latest"
-  $content = $releasePage.Content
-  $match = ($content | Select-String "href=""/$project/releases/tag/(.*?)""" -AllMatches).Matches[0]
-  $tag = $match.Groups[1].Value
+  $releasePage = Invoke-WebRequest -UseBasicParsing -Uri "https://api.github.com/repos/$project/releases/latest"
+  $latest = $releasePage.Content | ConvertFrom-Json
+  $tag = $latest.tag_name
   $version = $tag -replace "v", ""
-  $match = ($content | Select-String "href=""(/$project/releases/download/$tag/$file)""" -AllMatches).Matches[0]
-  $url = $domain + $match.Groups[1].Value
+  $url = ($latest.assets | Where-Object -Property name -eq $file)[0].browser_download_url
   @{
     Version = $version
     Url32   = $url
