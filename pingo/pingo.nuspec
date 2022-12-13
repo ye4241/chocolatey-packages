@@ -6,7 +6,7 @@
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
     <title>pingo (Portable)</title>
-    <authors>ye4241</authors>
+    <authors>cédric</authors>
     <projectUrl>https://css-ig.net/pingo</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/pingo/app.png</iconUrl>
     <docsUrl>https://css-ig.net/pingo</docsUrl>
