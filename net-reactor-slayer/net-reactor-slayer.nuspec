@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>net-reactor-slayer</id>
+    <version>6.4.0.0</version>
+    <owners>ye4241</owners>
+    <title>NETReactorSlayer (Portable)</title>
+    <authors>0xd4d</authors>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <projectUrl>https://github.com/SychicBoy/NETReactorSlayer</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/net-reactor-slayer/app.png</iconUrl>
+    <copyright>SychicBoy</copyright>
+    <licenseUrl>https://github.com/SychicBoy/NETReactorSlayer/blob/master/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/SychicBoy/NETReactorSlayer</projectSourceUrl>
+    <docsUrl>https://github.com/SychicBoy/NETReactorSlayer/wiki</docsUrl>
+    <tags>net reactor .net deobfuscator unpacker</tags>
+    <summary>An open source (GPLv3) deobfuscator and unpacker for Eziriz .NET Reactor</summary>
+    <description>NETReactorSlayer is an open source (GPLv3) deobfuscator and unpacker for [Eziriz .NET Reactor](https://www.eziriz.com/reactor_download.htm).</description>
+    <releaseNotes>https://github.com/SychicBoy/NETReactorSlayer/releases</releaseNotes>
+    <dependencies>
+      <dependency id="netfx-4.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
