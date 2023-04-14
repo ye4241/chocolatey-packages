@@ -6,7 +6,7 @@ $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = $toolsDir
   url64bit       = 'https://css-ig.net/bin/pingo-win64.zip'
-  checksum64     = '4a7622ccb2263e6f767f0792c491d4c081a9f6c3bae2374d658d23fbeac0e3df'
+  checksum64     = 'f2d40cf7017f057bc0682905425907498c10141cb855624b9c02fec40733e6ff'
   checksumType64 = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
