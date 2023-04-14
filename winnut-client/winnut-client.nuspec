@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winnut-client</id>
+    <version>2.0.7722.30975</version>
+    <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
+    <owners>ye4241</owners>
+    <title>WinNUT-Client (Install)</title>
+    <authors>gawindx</authors>
+    <projectUrl>https://github.com/gawindx/WinNUT-Client</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ye4241/chocolatey-packages/winnut-client/app.png</iconUrl>
+    <copyright>Copyright (C) 2019-2021 Gawindx (Decaux Nicolas)</copyright>
+    <licenseUrl>https://github.com/gawindx/WinNUT-Client/blob/master/COPYING</licenseUrl>
+    <projectSourceUrl>https://github.com/gawindx/WinNUT-Client</projectSourceUrl>
+    <docsUrl>https://github.com/gawindx/WinNUT-Client/blob/master/README.md</docsUrl>
+    <tags>ups nut client</tags>
+    <summary>A NUT windows client</summary>
+    <description>This is a NUT windows client for monitoring your ups hooked up to your favorite linux server.</description>
+    <releaseNotes>https://github.com/gawindx/WinNUT-Client/blob/master/changelog.md</releaseNotes>
+    <dependencies>
+      <dependency id="netfx-4.7.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
