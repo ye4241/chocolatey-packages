@@ -5,8 +5,8 @@ $packageName = $env:ChocolateyPackageName
 $packageArgs = @{
   packageName    = $packageName
   unzipLocation  = $toolsDir
-  url            = 'https://github.com/ironfede/openmcdf/releases/download/v2.2.1.9/StructuredStorageXplorer.zip'
-  checksum       = '2f3f74c59e6aec63dfbe34cc2128d0feb87e712da599da16da49d5c085a6b185'
+  url            = 'https://github.com/ironfede/openmcdf/releases/download/v2.3.0.0/StructuredStorageXplorer.zip'
+  checksum       = '5cfbd5c12ebf6e7b6ca97591ea7ddd971dae54b881326a824b16cfad00b67b9a'
   checksumType   = 'sha256'
   specificFolder = 'StructuredStorageXplorer'
 }
