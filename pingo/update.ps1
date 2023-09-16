@@ -14,7 +14,7 @@ function global:au_GetLatest {
   $releasePage = Invoke-WebRequest -UseBasicParsing -Uri "https://css-ig.net/pingo"
   $content = $releasePage.Content
   $match = ($content | Select-String ">v(.*?) — <a id=""download"" href=""(.*?)"">" -AllMatches).Matches[0]
-  $version = '0.' + $match.Groups[1].Value
+  $version = $match.Groups[1].Value
   $url = $match.Groups[2].Value
   $options = @{
     Headers = @{
