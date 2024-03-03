@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>stuctured-storage-explorer</id>
-    <version>2.3.0.0</version>
+    <version>2.3.1.0</version>
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
     <title>Stuctured Storage Explorer (Portable)</title>
