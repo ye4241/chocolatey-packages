@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dotnetreactor</id>
-    <version>7.0.0.0</version>
+    <version>7.3.0.0</version>
     <packageSourceUrl>https://github.com/ye4241/chocolatey-packages</packageSourceUrl>
     <owners>ye4241</owners>
     <title>.NET Reactor (Install)</title>
