@@ -1,8 +1,14 @@
-# AU Packages Template: https://github.com/majkinetor/au-packages-template
+# AU Packages Template: https://github.com/chocolatey-community/chocolatey-au
 
 param([string[]] $Name, [string] $ForcedPackages, [string] $Root = $PSScriptRoot)
 
 if (Test-Path $PSScriptRoot/update_vars.ps1) { . $PSScriptRoot/update_vars.ps1 }
+
+if (-not (Get-Module -ListAvailable -Name Chocolatey-AU)) {
+    Write-Host 'Chocolatey-AU not found. Installing from PowerShell Gallery...' -ForegroundColor Yellow
+    Install-Module -Name Chocolatey-AU -Scope CurrentUser -Force -AllowClobber
+}
+Import-Module Chocolatey-AU -ErrorAction Stop
 
 $Options = [ordered]@{
     WhatIf         = $au_WhatIf                              #Whatif all packages

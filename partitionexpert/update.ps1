@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $domain = 'https://macrorit.com'
 $releases = "$domain/js/arrlang.json"

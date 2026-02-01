@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $project = "abbodi1406/vcredist"
 $file = "VisualCppRedist_AIO_x86_x64_64.zip"

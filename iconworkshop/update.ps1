@@ -1,4 +1,4 @@
-import-module au
+Import-Module Chocolatey-AU
 
 $domain = 'https://www.axialis.com'
 $releases = "$domain/download/iw.html"
@@ -34,4 +34,4 @@ function global:au_GetLatest {
   }
 }
 
-Update-Package -ChecksumFor 32,64
+Update-Package -ChecksumFor all

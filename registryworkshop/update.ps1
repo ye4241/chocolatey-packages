@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $domain = 'http://www.torchsoft.com'
 $releases = "$domain/en/download.html"

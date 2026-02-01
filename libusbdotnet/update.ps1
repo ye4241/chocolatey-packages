@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $domain = 'https://sourceforge.net'
 $releases = "$domain/projects/libusbdotnet/files"

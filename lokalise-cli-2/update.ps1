@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $project = "lokalise/lokalise-cli-2-go"
 $file = "lokalise2_windows_x86_64.zip"

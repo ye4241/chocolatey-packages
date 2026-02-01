@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $releases = 'https://knowledge.digicert.com/generalinformation/INFO1982.html'
 

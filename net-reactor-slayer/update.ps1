@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $project = "SychicBoy/NETReactorSlayer"
 $file = "NETReactorSlayer-windows.zip"

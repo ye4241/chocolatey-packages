@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $project = "ironfede/openmcdf"
 $file = "StructuredStorageXplorer.zip"

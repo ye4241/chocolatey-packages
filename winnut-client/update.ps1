@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $project = "gawindx/WinNUT-Client"
 $file = "WinNUT-Setup.msi"

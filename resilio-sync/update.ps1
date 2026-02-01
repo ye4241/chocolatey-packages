@@ -1,4 +1,4 @@
-﻿import-module au
+Import-Module Chocolatey-AU
 
 $download = "https://www.resilio.com/platforms/desktop/"
 $release = "https://raw.githubusercontent.com/bt-sync/sync-docker/master/Dockerfile"
