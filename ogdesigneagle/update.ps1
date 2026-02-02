@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
   $response = Invoke-RestMethod -Method Get -Uri $releases
   $url = 'https:' + $response.links.windows
-  $version = $response.version
+  $version = $response.version + "." + $response.buildNumber
   @{
     Url32   = $url
     Version = $version

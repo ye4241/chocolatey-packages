@@ -1,10 +1,10 @@
-$ErrorActionPreference = 'Stop'; 
+﻿$ErrorActionPreference = 'Stop'; 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build1.exe'
+  url            = 'https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build17.exe'
   softwareName   = 'Eagle' 
-  checksum       = '666594b17fd953304adf15e6c7133ec1e5bc4121be742e7946a81e75685f95ff'
+  checksum       = '0100f228326c80e1433122ec738f4511fb3ad2b23d3d488d165aaa5e062afe12'
   checksumType   = 'sha256'
   silentArgs     = '/S'
   validExitCodes = @(0) 
